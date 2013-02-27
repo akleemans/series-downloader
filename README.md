@@ -16,7 +16,7 @@ Specify your favorite TV series in *series.txt* and start the downloader by typi
 
 It will automatically download the latest episodes of the specified series (of the current season).
 
-For each TV show, a separate folder is created, and after downloading you should put the files there, so that the script can recognise what's missing.
+For each TV show, a separate folder is created, and after downloading you should put the files there, so that the script can recognize what's missing.
 
 ## How it works
 For each show, a query to http://www.tvrage.com/ is sent to check the latest episode.
@@ -33,6 +33,6 @@ The script itself does not download any torrent, it just searches for the right 
 
 ## Disclaimer
 As said, the script itself does not download any torrent files, it just opens the standard web browser with the magnet-link.
-Be aware that by executing this script, torrent files will be added to your BitTorrent client.
+Be aware that by executing this script, torrent files will be added to your BitTorrent client for downloading.
 
 The script is provided "as is" without warranty of any kind.
