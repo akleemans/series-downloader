@@ -31,7 +31,7 @@ Then, the script looks up if there are any episodes already there, and if the la
 If there's any difference between the latest episode and the newest episode the user has, a query to PirateBay is sent.
 The URL is `'http://thepiratebay.se/search/[name of show and season/episode name]/0/7/0'`, so the results are sorted for seeders.
 
-The first magnet-link (usually the one with the most seeders) is then extracted and 
+The first magnet-link (usually the one with the most seeders) is then extracted and opened.
 
 The script itself does not download any torrent, it just searches for the right torrent/magnet links and opens them in the standard web browser.
 
