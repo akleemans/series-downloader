@@ -20,6 +20,8 @@ It will automatically download the latest episodes of the specified series (of t
 
 For each TV show, a separate folder is created, and after downloading you should put the files there, so that the script can recognize what's missing.
 
+Execute the script whenever you want to update. If there is no new episode, the script will tell you so.
+
 ## How it works
 For each show, a query to http://www.tvrage.com/ is sent to check the latest episode.
 The exact URL is `http://services.tvrage.com/tools/quickinfo.php?show=[name of show]`, which returns some text with information about the show.
