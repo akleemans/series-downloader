@@ -9,6 +9,8 @@ Downloads the latest episodes of your favorite TV show.
  * a BitTorrent-client
  * a browser which automatically redirects magnet-links to the BitTorrent-client
 
+Note: Most BitTorrent-clients can be configured to start downloads directly when a torrent/magnet-link has been received.
+
 ## Usage
 Specify your favorite TV series in *series.txt* and start the downloader by typing 	
 
