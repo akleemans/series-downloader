@@ -1,8 +1,8 @@
 #!/usr/bin/python
-# -*- coding: ascii -*-
+# -*- coding: utf-8 -*-
 '''
 Checks the progress of user-defined TV series and gathers links of the missing episodes.
-@author: Adrianus Kleemans
+
 '''
 
 import os
@@ -80,7 +80,7 @@ def main():
             url = site[:site.find('"')]
             webbrowser.open(url)
         
-        print '\nFinished.'
+    print '\nFinished.'
         
 if __name__ == "__main__":
     main()
